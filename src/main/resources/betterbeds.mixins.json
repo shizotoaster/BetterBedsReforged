@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.shizotoaster.betterbeds.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "betterbeds.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinBedBlock",
+    "MixinBlockEntityRendererDispatcher"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
